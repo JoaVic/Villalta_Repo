@@ -40,7 +40,7 @@ public class ClienteController {
         return clienteService.listaClientePorDni(dni);
     }
     
-    //Para el crud
+    //Para el CRUD
 
     @PostMapping("/registrar")
     public ResponseEntity<?> registrarCliente(@RequestBody Cliente cliente) {
